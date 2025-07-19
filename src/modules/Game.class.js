@@ -285,7 +285,7 @@ class Game {
 
     // verifica combinações horizontáis
     for (let i = 0; i < 4; i++) {
-      for (let j = 0; j < 4; j++) {
+      for (let j = 0; j < 3; j++) {
         if (this.board[i][j] === this.board[i][j + 1]) {
           return;
         }
@@ -303,4 +303,4 @@ class Game {
 
 module.exports = Game;
 
-export default Game;
+// export default Game;
